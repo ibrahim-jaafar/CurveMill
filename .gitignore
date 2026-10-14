@@ -1,0 +1,12 @@
+.venv/
+.cache/
+.pytest_cache/
+.pytest_tmp/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+graphify-out/cache/
+swaddin/bin/
+swaddin/obj/
+tools/potrace-1.16.win64/

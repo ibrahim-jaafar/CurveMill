@@ -1,0 +1,5 @@
+1- i was thinking about allowing the user to define the size of endmills, for example a normal endmill is sufficient to only input a diameter, but for tapered or v bits or ball ends, they dont come in one size, so a user my want to define there own ... or maybe we can also check if it is possible to pull endmill info from solidworks technology database so user doesn't have to manually add them
+
+3- is it possible to do all the operations in the background and then directly show the results in solidworks instead of the user seeing everything happening infront of them in solidworks?
+
+6- the exported file should have endmill diameter data in its name for example if it was processed using a 3mm end mill, it should put that in the sketch name

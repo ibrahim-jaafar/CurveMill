@@ -1,0 +1,172 @@
+{
+  ".claude/settings.local.json": {
+    "mtime": 1784058203.805673,
+    "ast_hash": "082157d81fc22be018b526a153d074c8",
+    "semantic_hash": "082157d81fc22be018b526a153d074c8"
+  },
+  ".vscode/settings.json": {
+    "mtime": 1783942058.9720902,
+    "ast_hash": "96e922c8c69569185719a5ca46624526",
+    "semantic_hash": "96e922c8c69569185719a5ca46624526"
+  },
+  "_sim.py": {
+    "mtime": 1783949876.0334089,
+    "ast_hash": "762bdd1991de95e95a3296fcee018afe",
+    "semantic_hash": "762bdd1991de95e95a3296fcee018afe"
+  },
+  "dxf_cnc_optimizer/__init__.py": {
+    "mtime": 1783628392.8076704,
+    "ast_hash": "2b9d7a306d6fdd6d9a5a1723ea4c9198",
+    "semantic_hash": "2b9d7a306d6fdd6d9a5a1723ea4c9198"
+  },
+  "dxf_cnc_optimizer/__main__.py": {
+    "mtime": 1783628395.1548922,
+    "ast_hash": "74264d7731787d05c9d338944d89ef86",
+    "semantic_hash": "74264d7731787d05c9d338944d89ef86"
+  },
+  "dxf_cnc_optimizer/app.py": {
+    "mtime": 1784484675.6105912,
+    "ast_hash": "d298345fc0775fda03b5e6c0133440c7",
+    "semantic_hash": ""
+  },
+  "dxf_cnc_optimizer/autotrace.py": {
+    "mtime": 1784191297.8381855,
+    "ast_hash": "feb10a1ee39e580c717167eca9cf2ead",
+    "semantic_hash": "feb10a1ee39e580c717167eca9cf2ead"
+  },
+  "dxf_cnc_optimizer/dimensions.py": {
+    "mtime": 1784184461.6540105,
+    "ast_hash": "fedd80e68a32ae59d8368bef1f82365f",
+    "semantic_hash": "fedd80e68a32ae59d8368bef1f82365f"
+  },
+  "dxf_cnc_optimizer/dxf_io.py": {
+    "mtime": 1784109627.7713342,
+    "ast_hash": "6c227455f422f87a67dd5d0af2756b9e",
+    "semantic_hash": "6c227455f422f87a67dd5d0af2756b9e"
+  },
+  "dxf_cnc_optimizer/editor.py": {
+    "mtime": 1784188390.0107718,
+    "ast_hash": "9832e988bb39085f17b79ae926583293",
+    "semantic_hash": "9832e988bb39085f17b79ae926583293"
+  },
+  "dxf_cnc_optimizer/geometry.py": {
+    "mtime": 1784221545.4505389,
+    "ast_hash": "38dca08e02b03467f6430d6e79149e64",
+    "semantic_hash": "38dca08e02b03467f6430d6e79149e64"
+  },
+  "dxf_cnc_optimizer/models.py": {
+    "mtime": 1784221557.288035,
+    "ast_hash": "820ac4885dc872a800bcb73e5e868bad",
+    "semantic_hash": "820ac4885dc872a800bcb73e5e868bad"
+  },
+  "dxf_cnc_optimizer/rasterize.py": {
+    "mtime": 1784459447.2184348,
+    "ast_hash": "a152f2bb76485a1497c3c65ad64ae685",
+    "semantic_hash": "a152f2bb76485a1497c3c65ad64ae685"
+  },
+  "dxf_cnc_optimizer/solidworks_bridge.py": {
+    "mtime": 1784474011.0498116,
+    "ast_hash": "4dee2494002521179c414389c8e70e1e",
+    "semantic_hash": "4dee2494002521179c414389c8e70e1e"
+  },
+  "pyproject.toml": {
+    "mtime": 1784454404.9670868,
+    "ast_hash": "ecf27a92b976eac6cb80dd1f048b4a41",
+    "semantic_hash": "ecf27a92b976eac6cb80dd1f048b4a41"
+  },
+  "sw_spike_phase_a.py": {
+    "mtime": 1784457701.8911412,
+    "ast_hash": "d5596642ac9ae89cda1280133cfe8292",
+    "semantic_hash": "d5596642ac9ae89cda1280133cfe8292"
+  },
+  "tests/conftest.py": {
+    "mtime": 1784478938.5070934,
+    "ast_hash": "67e3b80bd68fb4b7a3c3294162762abf",
+    "semantic_hash": "67e3b80bd68fb4b7a3c3294162762abf"
+  },
+  "tests/test_app.py": {
+    "mtime": 1784188357.7717617,
+    "ast_hash": "c9b366e7d6bedab93e44ecd453140985",
+    "semantic_hash": "c9b366e7d6bedab93e44ecd453140985"
+  },
+  "tests/test_autotrace.py": {
+    "mtime": 1784191335.5338144,
+    "ast_hash": "2f7fa7a4a620aa485f210c97c7c7bd51",
+    "semantic_hash": "2f7fa7a4a620aa485f210c97c7c7bd51"
+  },
+  "tests/test_dimensions.py": {
+    "mtime": 1784158015.0203693,
+    "ast_hash": "bede7fc37288558b884dce53d2ddfd34",
+    "semantic_hash": "bede7fc37288558b884dce53d2ddfd34"
+  },
+  "tests/test_dxf_io.py": {
+    "mtime": 1784109675.5985012,
+    "ast_hash": "ecc121b57ae75feebe285c44d54eb2a9",
+    "semantic_hash": "ecc121b57ae75feebe285c44d54eb2a9"
+  },
+  "tests/test_editor.py": {
+    "mtime": 1784058224.0839825,
+    "ast_hash": "09125d169ff6a0562ed48cd41bf49d3d",
+    "semantic_hash": "09125d169ff6a0562ed48cd41bf49d3d"
+  },
+  "tests/test_fit_chains.py": {
+    "mtime": 1784221753.2388306,
+    "ast_hash": "fa0b89b4e9aa0122bc1f76ec66648578",
+    "semantic_hash": "fa0b89b4e9aa0122bc1f76ec66648578"
+  },
+  "tests/test_geometry.py": {
+    "mtime": 1784109673.5645773,
+    "ast_hash": "35c10ff11e7bb9326aa9670764ee631f",
+    "semantic_hash": "35c10ff11e7bb9326aa9670764ee631f"
+  },
+  "tests/test_join_fragments.py": {
+    "mtime": 1784203980.7097137,
+    "ast_hash": "d6cd7345d55e209646c895beb251b5a3",
+    "semantic_hash": "d6cd7345d55e209646c895beb251b5a3"
+  },
+  "tests/test_solidworks_bridge.py": {
+    "mtime": 1784459979.781078,
+    "ast_hash": "9d539396ef93d0b82fe398e268a91d3b",
+    "semantic_hash": "9d539396ef93d0b82fe398e268a91d3b"
+  },
+  "tests/test_tabs.py": {
+    "mtime": 1784484683.4338014,
+    "ast_hash": "2fbbbeed80bf95837600fc902b6db5ff",
+    "semantic_hash": ""
+  },
+  "README.md": {
+    "mtime": 1784228064.911274,
+    "ast_hash": "2918e9ca0798f5c0e88a3efc5d184617",
+    "semantic_hash": "2918e9ca0798f5c0e88a3efc5d184617"
+  },
+  "docs/solidworks-com-api.md": {
+    "mtime": 1784474989.522884,
+    "ast_hash": "a1e201ea51063d8651be5a13267bde90",
+    "semantic_hash": "a1e201ea51063d8651be5a13267bde90"
+  },
+  "docs/solidworks-dxf-import.md": {
+    "mtime": 1784458721.8159347,
+    "ast_hash": "1a06c15fe37e60c415601b6702728fee",
+    "semantic_hash": "1a06c15fe37e60c415601b6702728fee"
+  },
+  "tools/potrace-1.16.win64/placement.pdf": {
+    "mtime": 1519989038.0,
+    "ast_hash": "439d54c8135af9b4a5c999f0c98a1616",
+    "semantic_hash": "439d54c8135af9b4a5c999f0c98a1616"
+  },
+  "sw_spike_preview.png": {
+    "mtime": 1784457782.5178869,
+    "ast_hash": "822b1884aee85295e2ba210b195e87b7",
+    "semantic_hash": "822b1884aee85295e2ba210b195e87b7"
+  },
+  ".claude/settings.json": {
+    "mtime": 1784483844.5748625,
+    "ast_hash": "b56714d0ca13f0ecfbe11bf819efcecb",
+    "semantic_hash": ""
+  },
+  "CLAUDE.md": {
+    "mtime": 1784483844.5591533,
+    "ast_hash": "8a6643a420fdad6bfb583523bc6cef16",
+    "semantic_hash": ""
+  }
+}
