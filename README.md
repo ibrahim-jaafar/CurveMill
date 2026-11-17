@@ -1,6 +1,8 @@
 # CurveMill
 
-A local desktop tool for loading 2D DXF files, editing imported vectors, previewing how a round CNC endmill cuts a wood board, and exporting an approved corrected DXF.
+A desktop DXF editor and SolidWorks add-in for CNC work. It loads 2D DXF files, finds and repairs the sketch faults SolidWorks rejects, previews how a round endmill cuts a wood board, and exports a corrected DXF.
+
+Built to fix a production bottleneck: imported patterns arrive as thousands of loose lines, and SolidWorks counts every line as a separate sketch element. CurveMill rebuilds them into whole native curves without losing detail, cutting one pattern from 7,014 lines to 274 sketch elements.
 
 ## Install
 
@@ -13,7 +15,7 @@ python -m venv .venv
 
 "Optimize for SolidWorks" works purely on the vector geometry and needs no external tools.
 [Potrace](https://potrace.sourceforge.net/) is kept for the planned v2 raster import (PNG/JPEG
-â†’ traced vectors). To enable it then, extract `potrace-1.16.win64.zip` into this project's
+→ traced vectors). To enable it then, extract `potrace-1.16.win64.zip` into this project's
 `tools\` folder (so the exe sits at `tools\potrace-1.16.win64\potrace.exe`), or install it
 anywhere on `PATH` or in `C:\Program Files\potrace\`.
 
@@ -59,4 +61,4 @@ anywhere on `PATH` or in `C:\Program Files\potrace\`.
 - Simulates center, inside, and outside endmill tracing.
 - Hides cut islands disconnected from the board boundary by removing them from the processed preview.
 - Exports the approved edited/corrected DXF.
-- Optimizes for SolidWorks: joins fragmented spline segments and chains loose LINE soup into whole native curves (losslessly â€” no decimation), then exports each curve as a fit-point SPLINE. SolidWorks refits those and counts **one sketch element per curve**, so the entity count shown in the app is the count SolidWorks reports on Select All. Measured: `path545.dxf` 3383 â†’ 540, a 7014-LINE pattern â†’ 274. See [docs/solidworks-dxf-import.md](docs/solidworks-dxf-import.md) for the probe-measured import rules behind this.
+- Optimizes for SolidWorks: joins fragmented spline segments and chains loose LINE soup into whole native curves (losslessly — no decimation), then exports each curve as a fit-point SPLINE. SolidWorks refits those and counts **one sketch element per curve**, so the entity count shown in the app is the count SolidWorks reports on Select All. Measured: `path545.dxf` 3383 → 540, a 7014-LINE pattern → 274. See [docs/solidworks-dxf-import.md](docs/solidworks-dxf-import.md) for the probe-measured import rules behind this.
