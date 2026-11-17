@@ -10,3 +10,8 @@ graphify-out/cache/
 swaddin/bin/
 swaddin/obj/
 tools/potrace-1.16.win64/
+
+# local AI tooling
+graphify-out/
+.claude/
+CLAUDE.md

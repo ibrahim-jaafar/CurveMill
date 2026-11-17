@@ -2,7 +2,7 @@
 
 A desktop DXF editor and SolidWorks add-in for CNC work. It loads 2D DXF files, finds and repairs the sketch faults SolidWorks rejects, previews how a round endmill cuts a wood board, and exports a corrected DXF.
 
-Built to fix a production bottleneck: imported patterns arrive as thousands of loose lines, and SolidWorks counts every line as a separate sketch element. CurveMill rebuilds them into whole native curves without losing detail, cutting one pattern from 7,014 lines to 274 sketch elements.
+Built to fix a production bottleneck: imported patterns arrive as thousands of loose lines, SolidWorks counts every line as a separate sketch element, and editing a DXF with that many elements crashes SolidWorks. CurveMill rebuilds them into whole native curves without losing detail, cutting one pattern from 7,014 lines to 274 sketch elements.
 
 ## Install
 
